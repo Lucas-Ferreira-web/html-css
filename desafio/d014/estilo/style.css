@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main, body{
+    margin-top: 20px;
+    background-color: rgb(20, 156, 156);
+}
+
+section{
+    background-color: white;
+}
+
+section > h1{
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+section > p{
+    padding: 15px;
+}
+
+p > label {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+#cor-enviar{
+    background-color: rgba(56, 223, 223, 0.839);
+    color: white;
+    border: 1px solid rgba(56, 223, 223, 0.839);
+}
+
+#cor-esqueci{
+    border: 2px solid rgba(56, 223, 223, 0.839);
+}
+
+
